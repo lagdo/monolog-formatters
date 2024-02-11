@@ -1,0 +1,17 @@
+{
+    "name": "lagdo/monolog-formatters",
+    "type": "library",
+    "description": "Log messages formatters for Monolog 2.",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lagdo\\Monolog\\Formatter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
